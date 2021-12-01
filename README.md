@@ -45,11 +45,11 @@ algorithm performs dimensionality reduction.
 This reduction is performed with Singular Value Decomposition (SVD). SVD factorizes a
 matrix, M, into the product of three separate matrices:
 
-                                    A m n= U m r  S r r(V n r)T
+                                    A mn= U mr  S rr(V nr)T
                                     
                                     
-* A:This is the input data matrix.<br><br>
-* m :This is number of document.<br><br>
-* n: This is the number of terms.<br><br>
-* U: left Singular Vectors.Our document topic matrix.<br><br>
+* A:This is the input data matrix.<br>
+* m :This is number of document.<br>
+* n: This is the number of terms.<br>
+* U: left Singular Vectors.Our document topic matrix.<br>
 * S:Singular values.Represented terms Vector in terms topics.<br><br>
