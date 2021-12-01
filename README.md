@@ -34,7 +34,7 @@ Mathematically, the algorithm to find the weight of a term in a document is as f
   
 The result is the number of times a term appears in that document, multiplied by the
 log of the total number of documents, divided by the number of documents that contain
-the term.
+the term.<br><br>
 <b>2.Latent Semantic Analysis (LSA)</b><br><br>
 LSA is one of the foundational techniques of topic modeling. It analyzes the relationship
 between a set of documents and their terms, and produces a set of concepts related to
