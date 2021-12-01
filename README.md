@@ -12,6 +12,8 @@ techniques, we can obtain a bunch of words representing various topics. Dependin
 on your set of documents, you will then have different topics represented by different
 words. The goal of these techniques is to know the different types of documents in your
 corpus.
-
+<center>
+  
 ![topic_modeling](https://user-images.githubusercontent.com/89722385/144175229-948abb02-2382-498b-a029-e650fc67e20e.jpeg)
 
+</center>
