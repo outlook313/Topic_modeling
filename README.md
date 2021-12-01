@@ -35,3 +35,21 @@ Mathematically, the algorithm to find the weight of a term in a document is as f
 The result is the number of times a term appears in that document, multiplied by the
 log of the total number of documents, divided by the number of documents that contain
 the term.
+<b>2.Latent Semantic Analysis (LSA)</b><br><br>
+LSA is one of the foundational techniques of topic modeling. It analyzes the relationship
+between a set of documents and their terms, and produces a set of concepts related to
+them.
+LSA is a step ahead when compared to TF-IDF. In a large set of documents, the TF-IDF
+matrix has very noisy information and many redundant dimensions, so the LSA
+algorithm performs dimensionality reduction.
+This reduction is performed with Singular Value Decomposition (SVD). SVD factorizes a
+matrix, M, into the product of three separate matrices:
+
+                                    A m n= U m r  S r r(V n r)T
+                                    
+                                    
+* A:This is the input data matrix.<br><br>
+* m :This is number of document.<br><br>
+* n: This is the number of terms.<br><br>
+* U: left Singular Vectors.Our document topic matrix.<br><br>
+* S:Singular values.Represented terms Vector in terms topics.<br><br>
